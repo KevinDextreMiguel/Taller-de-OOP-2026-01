@@ -1,0 +1,14 @@
+# abcdfrty → 98654384
+# abcdf rty → 98654 384
+
+n = 98654384
+
+parte_izquierda = n // 1000  # 98654
+parte_derecha = n % 1000     # 384
+
+print(parte_izquierda)
+print(parte_derecha)
+
+
+
+La cantidad de "0", siempre depende de la parte_derecha
